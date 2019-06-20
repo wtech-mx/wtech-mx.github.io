@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>W-tech Desarrollo Web</title>
+
+    <meta name="author" content="W-TECH">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="#" target="_top">
+
+    <meta name="description" content="Aumenta tus ventas con unicos diseños web">
+    <meta name="keywords"
+        content="W-tech, web development, diseño web, landing pages, pagina web para negocio, aumentar ventas">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/faviconv1.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/faviconv1.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/faviconv1.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/img/favicon/faviconv1.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/favicon/faviconv1.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/img/favicon/faviconv1.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/favicon/faviconv1.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/img/favicon/faviconv1.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/faviconv1.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="static/img/favicon/faviconv1.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/faviconv1.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon/faviconv1.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/faviconv1.png">
+    <link rel="manifest" href="static/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5647QTS');</script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '662144564186562');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=662144564186562&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+
+
+    <!--BOOTSTRAP 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--ANIMATE-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css"
+        integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css"
+        integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!--GOOGLE FONT-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="static/css/main.css">
+
+    <!--AOS ANIMATE ON SCROLL-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+    <!--NAV BAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark semi-trans fixed-top">
+        <a class="navbar-brand" href="/"> <img src="static/img/logo-v3.png" alt="W-Tech"
+                width="110px"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto h5">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="fondo-index">
+            <div class="container-fluid w-100" style="height: 100vh;">
+                <div class="row h-100">
+                    <div class="col-12 my-auto">
+                        <div class="col-9 mx-auto text-center">
+                            <h1 class="display-3" id="hero"> Aumenta tus ventas</h1>
+                            <p class="h3" id="hero-p">
+                                Ten presencia en el mundo digital y has que te enuentren más clientes
+                            </p>
+                            <br><br><br><br><br><br><br>
+                            <p class="h5">Cuéntanos sobre tu proyecto: <b class="p-contrast">+52 1 55 2929 1962</b></p>
+                            <p class="h5">Siguénos en:</p>
+                            <div class="row social-media">
+                                <div class="col" id="facebook">
+                                    <a href="https://www.facebook.com/W-Tech-959283310886458/" target="_blank">
+                                        <i class="fab fa-facebook-f fa-5x"></i>
+                                    </a>
+                                </div>
+                                <div class="col" id="insta">
+                                    <a href="#">
+                                        <i class="fab fa-instagram fa-5x"></i>
+                                    </a>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!--Quienes somos-->
+        <section>
+            <div class="container my-5 py-3">
+                <h2 class="display-4"> ¿Cómo lo hacemos?</h2>
+                <p>
+                    Ayudamos a las pequeñas y medianas empresas <b>PYMES</b> a que tengan presencia en el mundo digital.
+                    <br>
+                    Creamos y diseñamos tu página web, landing page e incluso tu app web.
+                    <br>
+                    Aumentamos tus ventas utilizando herramientas como Google AdWords y Facebook Ads. Creamos estrategias de
+                    marketing
+                    para que llegues a más clientes potenciales.
+                    <br>
+        
+                </p>
+        
+                <div class="row text-center">
+                    <div class="col-6" data-aos="fade-right">
+                        <img class="img-fluid" src="static/img/gads-1.png" alt="adw" width="50%">
+                    </div>
+                    <div class="col-6" data-aos="fade-left">
+                        <img class="img-fluid" src="static/img/facebook-ads-logo.png" alt="" width="70%">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--portafolio-->
+        <section class="my-3" id="portafolio">
+        
+            <div class="container-fluid dark-section py-3 text-center">
+                <h1 class="display-4 text-white">Este es nuestro trabajo</h1>
+            </div>
+        
+            <div class="container text-center my-5">
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-up-right" data-aos-duration="2000" >
+                        <div class="container-relative text-center">
+                            <img class="img-thumbnail" src="static/img/GrupoVechmo-page.png" alt="Grupo Vechmo" width="100%">
+                            <div class="overlay rounded">
+                                <a href="http://www.grupovechmo.com/" target="_blank" rel="noopener noreferrer">
+                                    <img src="static/img/logo-grupo-vechmo.png" alt="vechmo" class="img-overlay">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <h3>Grupo Vechmo</h3>
+                    </div>
+        
+        
+                    <div class="col-md-6" data-aos="fade-up-right" data-aos-duration="2000" >
+                        <div class="container-relative text-center">
+                            <img class="img-thumbnail" src="static/img/QA-page.png" alt="QA" width="100%">
+                            <div class="overlay rounded">
+                                <a href="http://queenapp.net/" target="_blank" rel="noopener noreferrer">
+                                    <img src="static/img/queenapp-vector-web.png" alt="QA" class="img-overlay">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <h3>Queen App</h3>
+                    </div>
+        
+                    <div class="col-md-6" data-aos="fade-up-right" data-aos-duration="2000" >
+                        <div class="container-relative text-center">
+                            <img class="img-thumbnail" src="static/img/ASTELECOM-page.png" alt="ASTELECOM" width="100%">
+                            <div class="overlay rounded">
+                                <a href="http://www.astelecom.com.mx/" target="_blank" rel="noopener noreferrer">
+                                    <img src="static/img/Atelecom-logo.png" alt="vechmo" class="img-overlay">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <h3> ASTELECOM</h3>
+                    </div>
+        
+                    <div class="col-md-6" data-aos="fade-up-right" data-aos-duration="2000" >
+                        <div class="container-relative text-center">
+                            <img class="img-thumbnail" src="static/img/ConstruccionesA&M-page.png" alt="CAM" width="100%">
+                            <div class="overlay rounded">
+                                <a href="http://construccionaym.com/" target="_blank" rel="noopener noreferrer">
+                                    <img src="static/img/Construcciones A&M.png" alt="CAM" class="img-overlay">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <h3> Construcciones A&M</h3>
+                    </div>
+        
+                    <div class="col-md-6" data-aos="fade-up-right" data-aos-duration="2000" >
+                        <div class="container-relative text-center">
+                            <img class="img-thumbnail" src="static/img/AllExtreme-Page.png" alt="ALLEXTREME" width="100%">
+                            <div class="overlay rounded">
+                                <a href="http://allextremeworkout.com.mx/" target="_blank" rel="noopener noreferrer">
+                                    <img src="static/img/All-Xtreme.jpg" alt="vechmo" class="img-overlay">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <h3> All Extreme Workout</h3>
+                    </div>
+        
+                    <div class="col-md-6" data-aos="fade-up-right" data-aos-duration="2000" >
+                        <div class="container-relative text-center">
+                            <img class="img-thumbnail" src="static/img/Dent-page.png" alt="Dent" width="100%">
+                            <div class="overlay rounded">
+                                <a href="http://www.dent-salud.com.mx/" target="_blank" rel="noopener noreferrer">
+                                    <img src="static/img/logoDent.png" alt="dent" class="img-overlay">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <h3> DentSalud</h3>
+                    </div>
+        
+                    <div class="col-md-6" data-aos="fade-up-right" data-aos-duration="2000" >
+                        <div class="container-relative text-center">
+                            <img class="img-thumbnail" src="static/img/AerialArts-page.png" alt="aerial" width="100%">
+                            <div class="overlay rounded">
+                                <a href="http://www.aerialartsacademy.com.mx/" target="_blank" rel="noopener noreferrer">
+                                    <img src="static/img/Aerial.png" alt="aerial" class="img-overlay">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <h3> Aerial Arts</h3>
+                    </div>
+        
+                    <div class="col-md-6" data-aos="fade-up-right" data-aos-duration="2000" >
+                        <div class="container-relative text-center">
+                            <img class="img-thumbnail" src="static/img/ITAL-page.png" alt="ITAL-page" width="100%">
+                            <div class="overlay rounded">
+                                <a href="http://www.institutoenterapiasalternativas.com.mx/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img src="static/img/LOGO ITAL.png" alt="ital" class="img-overlay">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <h3> Instituto de Terapias Alternativas</h3>
+                    </div>
+        
+                    <div class="col-md-6" data-aos="fade-up-right" data-aos-duration="2000" >
+                        <div class="container-relative text-center">
+                            <img class="img-thumbnail" src="static/img/TresFlores-page.png" alt="TresFlores-page" width="100%">
+                            <div class="overlay rounded">
+                                <a href="http://www.tresfloresboutique.com.mx/" target="_blank" rel="noopener noreferrer">
+                                    <img src="static/img/tresfloreslogo2.png" alt="tresfloreslogo" class="img-overlay">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <h3> Tres Flores Boutique</h3>
+                    </div>
+        
+                    <div class="col-md-6" data-aos="fade-up-right" data-aos-duration="2000" >
+                        <div class="container-relative text-center">
+                            <img class="img-thumbnail" src="static/img/Imaginarte-page.png" alt="Imaginarte-page" width="100%">
+                            <div class="overlay rounded">
+                                <a href="http://www.imaginarte3d.com.mx/#" target="_blank" rel="noopener noreferrer">
+                                    <img src="static/img/Imaginarte.png" alt="Imaginarte" class="img-overlay">
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <h3> Imaginarte 3D</h3>
+                    </div>
+                </div>
+        
+        </section>
+        
+        <!--Quienes somos-->
+        <section class="my-5" id="nosotros">
+        
+            <div class="container">
+                <h1 class="display-3">Nosotros</h1>
+            </div>
+            <div class="container-fluid my-5">
+        
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="img-fluid rounded" src="static/img/team-v2.jpg" alt="">
+                    </div>
+                    <div class="col-md-6" id="nosotros-text">
+                        <div class="row h-100">
+                            <div class="col-12 my-auto py-4 bg-glass">
+                                <h3>Somos emprendedores.</h3>
+                                <p class="h4">Somos W-tech</p>
+        
+                                <p>
+                                    Trabajamos hombro a hombro contigo satisfaciendo tus necesidades y cumpliendo tus objetivos.
+                                    Creativos e innovando, estamos comprometidos a que siempre tengas la mejor experiencia con
+                                    nosotros y así, juntos poder potenciar tu negocio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        
+        
+        
+            </div>
+        
+        </section>
+        
+        <!--Contacto-->
+        <section class="my-5"  id="contacto">
+        <div class="container">
+            <h1 class="display-3 ">Contacto</h1>
+        
+            <p class="h2">¿Te gusto nuestro trabajo?</p>
+            <p>No te quedes con las ganas y llamanos o mandanos un mensaje <br>
+            Te damos: Informes, Cotizaciones o Planes de Trabajo</p>
+        </div>
+        
+        <div class="jumbotron text-center">
+                <div class="container">
+                  <h1 class="display-4">Escribenos</h1>
+                  <hr>
+                  <br>
+                    <a href="mailto:adrianwebtech@gmail.com"> <i class="far fa-envelope"></i> <b>adrianwebtech@gmail.com</b> </a>
+                    <br><br>
+                    <a href="mailto:rediaz1808@gmail.com"> <i class="far fa-envelope"></i> <b>rediaz1808@gmail.com</b> </a>
+                    <br><br>
+                    <a href="tel:+52 1 55 2929 1962"> <i class="fab fa-whatsapp"></i> +52 1 55 2929 1962</a>
+                    <br><br>
+                    <a href="tel:+52 1 56 1415 9926"> <i class="fab fa-whatsapp"></i> +52 1 56 1415 9926</a>
+                </div>
+              </div>
+        
+        
+        
+        </section>
+        
+
+
+
+    <!--Footer-->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-black">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Portafolio</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Nosotros</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Contacto</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <hr class="rgba-white-light" style="margin: 0 15%;">
+
+            <!-- Grid row-->
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+                <!-- Grid column -->
+                <div class="col-md-8 col-12 mt-5">
+                    <p style="line-height: 1.7rem">
+                        W-tech es una startup comprometida con la satisfacción de nuestros clientes. Los ayudamos a
+                        crecer y tener presencia en redes.
+
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+            <!-- Grid row-->
+            <div class="row pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-12">
+
+                    <div class="mb-5 flex-center text-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg white-text"> </i>
+                        </a>
+
+                    </div>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="#"> W-Tech</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+</body>
+
+</html>

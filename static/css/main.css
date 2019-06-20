@@ -18,7 +18,7 @@ h3 {
 
 .semi-trans {
     background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1292892156862745) 0%, rgba(0, 0, 0, 0.3925945378151261) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1292892156862745) 0%, rgba(0, 0, 0, 0.521) 100%);
 }
 
 .p-contrast {
@@ -130,5 +130,12 @@ div h6 a {
     }
     #hero-p{
         font-size: 1.5rem;
+    }
+
+    #facebook{
+        font-size: 0.5rem;
+    }
+    #insta{
+        font-size: 0.5rem;
     }
 }

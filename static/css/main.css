@@ -33,6 +33,7 @@ h3 {
     position: relative;
     color: aliceblue;
     background-position: center;
+    z-index: 0;
 }
 
 #redes-top {

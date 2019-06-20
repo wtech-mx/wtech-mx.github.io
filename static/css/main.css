@@ -1,0 +1,133 @@
+body {
+    background: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+}
+
+h1 {
+    color: #2BA8D9;
+}
+
+h2 {
+    color: #2BB9D9;
+}
+
+h3 {
+    color: #1E3A40;
+}
+
+.semi-trans {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1292892156862745) 0%, rgba(0, 0, 0, 0.3925945378151261) 100%);
+}
+
+.p-contrast {
+    background: rgb(0, 69, 255);
+    background: linear-gradient(7deg, rgba(0, 69, 255, 1) 0%, rgba(0, 69, 255, 0.4967121595747015) 94%, rgba(0, 212, 255, 1) 100%);
+}
+
+#fondo-index {
+    background-image: url(../img/fondo-index-v2.jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: aliceblue;
+    background-position: center;
+}
+
+#redes-top {
+    background-color: aliceblue;
+}
+
+.dark-section {
+    background: #2c3e50;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: beige;
+}
+
+#facebook a {
+    color: whitesmoke;
+    transition: 600ms;
+}
+
+#insta a {
+    color: whitesmoke;
+    transition: 600ms;
+}
+
+#facebook a :hover {
+    color: #0045ff;
+    transition: 600ms;
+}
+
+#insta a :hover {
+    color: rgb(208, 255, 1);
+    transition: 600ms;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(7deg, rgba(0, 0, 0, 0.4573863168780723) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container-relative {
+    position: relative;
+}
+
+.container-relative:hover .overlay {
+    opacity: 1;
+}
+
+.img-overlay {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    width: 30vh;
+}
+
+.bg-glass {
+    background-color: rgba(255, 255, 255, 0.596)
+}
+
+.footer-black {
+    background-color: #2ba8d9;
+    background-image: linear-gradient(171deg, #2ba8d9 0%, #2bb9d9 50%, #1e3a40 100%);
+}
+
+div h6 a {
+    color: #D0ECF2;
+}
+
+#nosotros-text{
+    left:-5%;
+}
+
+@media (max-width: 720px){
+
+    #nosotros-text{
+        left: 0%;
+    }
+    
+    #hero{
+        font-size: 3rem;
+    }
+    #hero-p{
+        font-size: 1.5rem;
+    }
+}
